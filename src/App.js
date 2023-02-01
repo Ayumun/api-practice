@@ -19,8 +19,8 @@ function App() {
       //Clickされた場合trueをセット
       setIsClick(true);
   
-      //API URL(社用AWS)
-      const endpointURL = ``;
+      //API URL
+      const endpointURL = `APIのURLを貼る`;
   
       //APIをたたく（fetch data）
       //非同期を用いる　fetch→responseをjson形式でreturn→dataをfetchDataにセット
