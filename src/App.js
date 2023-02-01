@@ -19,11 +19,8 @@ function App() {
       //Clickされた場合trueをセット
       setIsClick(true);
   
-      //API URL(個人用AWS)
-      const endpointURL = `https://svghlza3e7.execute-api.ap-northeast-1.amazonaws.com/API_Weather/`;
-      
       //API URL(社用AWS)
-      // const endpointURL = `https://o6itmov8g7.execute-api.ap-northeast-1.amazonaws.com/call_lambda_openwether_api`;
+      const endpointURL = ``;
   
       //APIをたたく（fetch data）
       //非同期を用いる　fetch→responseをjson形式でreturn→dataをfetchDataにセット
